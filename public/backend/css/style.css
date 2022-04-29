@@ -1,0 +1,19 @@
+.app-header__logo .logo-src{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vertical-nav-menu li a i {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 1.1rem;
+    opacity: .4;
+    transition: color 300ms;
+}

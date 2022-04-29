@@ -22,7 +22,10 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function () {
     Route::middleware('admin')->group(function () {
         Route::post('logout', 'Auth\AuthenticatedSessionController@destroy')->name('logout');
 
-        // Dashboard
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+        Route::resource('admin', AdminController::class);
+        Route::resource('student', StudentController::class);
+        Route::resource('category', CategoryController::class);
+        Route::resource('book', BookController::class);
     });
 });
