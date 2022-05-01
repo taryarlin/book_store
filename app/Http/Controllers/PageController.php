@@ -11,8 +11,6 @@ class PageController extends Controller
 {
     public function index()
     {
-        $user = auth()->user();
-
         return view('index', [
             'books' => Book::all(),
             'categories' => Category::all(),

@@ -40,7 +40,7 @@
                                     <span class="py-1 px-2 text-white rounded
                                         @if (isOverDueDate($order_detail->created_at, $order_detail->status)) bg-danger @elseif (isDueDate($order_detail->created_at, $order_detail->status)) bg-warning @else bg-primary @endif
                                     ">
-                                        <i class="fa-solid fa-clock"></i> {{ $order_detail->created_at->diffForHumans() }}
+                                        <i class="fas fa-clock"></i> {{ $order_detail->created_at->diffForHumans() }}
                                     </span>
                                 </td>
 

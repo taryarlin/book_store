@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master', ['small_header' => true])
 
 @section('content')
 <div class="p-4 mt-6 pb-5 w-full">

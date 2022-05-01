@@ -12,6 +12,6 @@ if (!function_exists("isOverDueDate")) {
 if (!function_exists("isDueDate")) {
     function isDueDate($rent_date, $rent_status)
     {
-        return (Carbon::now()->format('d-m-Y') == $rent_date->addDays(6)->format('d-m-Y')) && ($rent_status !== 'returned');
+        return (Carbon::now()->format('d-m-Y') == $rent_date->addDays(5)->format('d-m-Y')) && ($rent_status !== 'returned');
     }
 }

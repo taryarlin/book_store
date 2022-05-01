@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master', ['small_header' => true])
 
 @section('content')
     <h3 class="text-2xl my-4 font-black">Category Name - {{ $category->name }}</h3>
