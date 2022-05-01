@@ -1,6 +1,7 @@
 /node_modules
 /public/hot
 /public/storage
+/public/images/book_cover
 /storage/*.key
 /vendor
 .env

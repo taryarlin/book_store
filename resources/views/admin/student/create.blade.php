@@ -2,7 +2,7 @@
 
 <x-admin-layout>
     <div class="pull-right mb-4">
-        <a href="{{ route('admin.student.index') }}" class="btn btn-primary"><i class="fa-solid fa-arrow-left"></i> Back</a>
+        <a href="{{ route('admin.student.index') }}" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Back</a>
     </div>
 
     <div class="clearfix"></div>

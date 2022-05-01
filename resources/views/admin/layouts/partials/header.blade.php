@@ -64,7 +64,7 @@
                         <div class="widget-content-left  ml-3 header-user-info">
                             <div class="d-flex" >
                                 <div style="font-size: 28px;margin-right: 10px;">
-                                    <i class="fa-solid fa-user-tie"></i>
+                                    <i class="fas fa-user-tie"></i>
                                 </div>
                                 <div>
                                     <div class="widget-heading">
